@@ -46,24 +46,6 @@ const RemovePerson = ({ id }) => {
                                     }
                                 });
                             }
-                            // if (carsData && carsData.cars) {
-                            //     const updatedCars = carsData.cars.filter((car) => car.personId !== removePerson.id);
-
-                
-                            //     cache.writeQuery({
-                            //         query: GET_CARS,
-                            //         data: {
-                            //             cars: updatedCars
-                            //         }
-                            //     });
-                            // }
-
-                            // cache.writeQuery({
-                            //     query: GET_PERSONS,
-                            //     data: {
-                            //         persons: updatedPersons
-                            //     }
-                            // })
                         }
                     }
                 })
